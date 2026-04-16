@@ -1,3 +1,5 @@
 node_modules/
 .env
-data/
+# Ignore the local data dir (root-level, used by server.js in older versions)
+/data/
+# docs/data/snapshots.json is intentionally committed — do NOT ignore it

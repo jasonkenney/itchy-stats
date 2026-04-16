@@ -9,11 +9,11 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const ITCH_BASE = 'https://itch.io/api/1';
-const DATA_DIR = path.join(__dirname, 'data');
+const DATA_DIR = path.join(__dirname, 'docs', 'data');
 const SNAPSHOTS_FILE = path.join(DATA_DIR, 'snapshots.json');
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'docs')));
 
 // ---------------------------------------------------------------------------
 // Storage helpers

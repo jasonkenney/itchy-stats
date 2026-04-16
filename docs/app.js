@@ -491,24 +491,70 @@ function showDashboard() {
   el('dashboard').classList.remove('hidden');
 }
 
-// ─── Load & Refresh ───────────────────────────────────────────────────────────
-async function load(forceRefresh = false) {
-  showLoading('Connecting to itch.io…');
-
+// ─── Mode detection ───────────────────────────────────────────────────────────
+// Returns true if the Express backend is running (local dev).
+// On GitHub Pages /api/credentials returns 404 → static mode.
+async function isServerMode() {
   try {
-    // Check key is configured
-    await api('/credentials');
+    const res = await fetch('/api/credentials');
+    return res.status !== 404;
+  } catch {
+    return false;
+  }
+}
+
+// ─── Static mode (GitHub Pages) ───────────────────────────────────────────────
+async function loadFromStatic() {
+  showLoading('Loading stats…');
+  try {
+    const res = await fetch('./data/snapshots.json');
+    if (!res.ok) throw new Error(`Could not load data (HTTP ${res.status})`);
+    const data = await res.json();
+    S.snapshots = data.snapshots || [];
+
+    if (!S.snapshots.length) {
+      showError(
+        'No data yet — the GitHub Action hasn\'t run yet.<br><br>' +
+        'Go to your repo\'s <strong>Actions</strong> tab and manually trigger ' +
+        '<em>Fetch itch.io Stats</em>, then reload this page.'
+      );
+      return;
+    }
+
+    S.current = S.snapshots[S.snapshots.length - 1];
+    // Hide controls that require a live backend
+    el('refresh-btn').style.display = 'none';
+    showDashboard();
+    renderAll();
   } catch (e) {
-    if (e.message.includes('No API key')) {
+    showError('Failed to load snapshot data: ' + e.message);
+  }
+}
+
+// ─── Server mode (local dev) ──────────────────────────────────────────────────
+async function loadFromServer(forceRefresh = false) {
+  try {
+    const creds = await api('/credentials');
+    if (creds.error && creds.error.includes('No API key')) {
       showError(
         'No API key configured.<br><br>' +
         'Create a <code>.env</code> file in the project root:<br>' +
         '<code>ITCH_API_KEY=your_key_here</code><br><br>' +
         'Then restart the server. Get your key at ' +
-        '<a href="https://itch.io/user/settings/api-keys" target="_blank" rel="noopener">itch.io/user/settings/api-keys</a>.'
+        '<a href="https://itch.io/user/settings/api-keys" target="_blank" rel="noopener">' +
+        'itch.io/user/settings/api-keys</a>.'
+      );
+      return;
+    }
+  } catch (e) {
+    if (e.message.includes('No API key')) {
+      showError(
+        'No API key configured.<br><br>' +
+        'Create a <code>.env</code> file:<br><code>ITCH_API_KEY=your_key_here</code><br><br>' +
+        'Then restart the server.'
       );
     } else {
-      showError('API key error: ' + e.message);
+      showError('API error: ' + e.message);
     }
     return;
   }
@@ -535,6 +581,17 @@ async function load(forceRefresh = false) {
     renderAll();
   } catch (e) {
     showError('Failed to load data: ' + e.message);
+  }
+}
+
+// ─── Load & Refresh ───────────────────────────────────────────────────────────
+async function load(forceRefresh = false) {
+  showLoading('Loading…');
+  const server = await isServerMode();
+  if (server) {
+    await loadFromServer(forceRefresh);
+  } else {
+    await loadFromStatic();
   }
 }
 
