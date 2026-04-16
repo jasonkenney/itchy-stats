@@ -2,16 +2,16 @@
   "snapshots": [
     {
       "date": "2026-04-16",
-      "fetched_at": "2026-04-16T15:02:38.789Z",
+      "fetched_at": "2026-04-16T15:16:53.144Z",
       "user": {
-        "username": "serialprizes",
-        "gamer": true,
+        "cover_url": "https://img.itch.zone/aW1nLzIwNDg0MjYyLmpwZWc=/100x100%23/gfi6%2FE.jpeg",
+        "display_name": "Serial Prizes",
         "developer": true,
-        "press_user": false,
+        "username": "serialprizes",
         "id": 5747764,
         "url": "https://serialprizes.itch.io",
-        "cover_url": "https://img.itch.zone/aW1nLzIwNDg0MjYyLmpwZWc=/100x100%23/gfi6%2FE.jpeg",
-        "display_name": "Serial Prizes"
+        "gamer": true,
+        "press_user": false
       },
       "games": [
         {
@@ -34,9 +34,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 350,
+              "amount_formatted": "$3.50",
               "currency": "USD",
-              "amount_formatted": "$3.50"
+              "amount": 350
             }
           ]
         },
@@ -60,9 +60,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 400,
+              "amount_formatted": "$4.00",
               "currency": "USD",
-              "amount_formatted": "$4.00"
+              "amount": 400
             }
           ]
         },
@@ -106,9 +106,9 @@
           "purchases_count": 4,
           "earnings": [
             {
-              "amount": 900,
+              "amount_formatted": "$9.00",
               "currency": "USD",
-              "amount_formatted": "$9.00"
+              "amount": 900
             }
           ]
         },
@@ -152,9 +152,9 @@
           "purchases_count": 56,
           "earnings": [
             {
-              "amount": 14523,
+              "amount_formatted": "$145.23",
               "currency": "USD",
-              "amount_formatted": "$145.23"
+              "amount": 14523
             }
           ]
         },
@@ -178,9 +178,9 @@
           "purchases_count": 3,
           "earnings": [
             {
-              "amount": 700,
+              "amount_formatted": "$7.00",
               "currency": "USD",
-              "amount_formatted": "$7.00"
+              "amount": 700
             }
           ]
         },
@@ -204,9 +204,9 @@
           "purchases_count": 4,
           "earnings": [
             {
-              "amount": 1000,
+              "amount_formatted": "$10.00",
               "currency": "USD",
-              "amount_formatted": "$10.00"
+              "amount": 1000
             }
           ]
         },
@@ -249,9 +249,9 @@
           "purchases_count": 1,
           "earnings": [
             {
-              "amount": 200,
+              "amount_formatted": "$2.00",
               "currency": "USD",
-              "amount_formatted": "$2.00"
+              "amount": 200
             }
           ]
         },
@@ -275,9 +275,9 @@
           "purchases_count": 4,
           "earnings": [
             {
-              "amount": 800,
+              "amount_formatted": "$8.00",
               "currency": "USD",
-              "amount_formatted": "$8.00"
+              "amount": 800
             }
           ]
         },
@@ -301,9 +301,9 @@
           "purchases_count": 1,
           "earnings": [
             {
-              "amount": 200,
+              "amount_formatted": "$2.00",
               "currency": "USD",
-              "amount_formatted": "$2.00"
+              "amount": 200
             }
           ]
         },
@@ -327,9 +327,9 @@
           "purchases_count": 4,
           "earnings": [
             {
-              "amount": 1200,
+              "amount_formatted": "$12.00",
               "currency": "USD",
-              "amount_formatted": "$12.00"
+              "amount": 1200
             }
           ]
         },
@@ -373,9 +373,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 400,
+              "amount_formatted": "$4.00",
               "currency": "USD",
-              "amount_formatted": "$4.00"
+              "amount": 400
             }
           ]
         },
@@ -399,9 +399,9 @@
           "purchases_count": 19,
           "earnings": [
             {
-              "amount": 4300,
+              "amount_formatted": "$43.00",
               "currency": "USD",
-              "amount_formatted": "$43.00"
+              "amount": 4300
             }
           ]
         },
@@ -425,9 +425,9 @@
           "purchases_count": 1,
           "earnings": [
             {
-              "amount": 200,
+              "amount_formatted": "$2.00",
               "currency": "USD",
-              "amount_formatted": "$2.00"
+              "amount": 200
             }
           ]
         },
@@ -451,9 +451,9 @@
           "purchases_count": 18,
           "earnings": [
             {
-              "amount": 6400,
+              "amount_formatted": "$64.00",
               "currency": "USD",
-              "amount_formatted": "$64.00"
+              "amount": 6400
             }
           ]
         },
@@ -477,9 +477,9 @@
           "purchases_count": 15,
           "earnings": [
             {
-              "amount": 5800,
+              "amount_formatted": "$58.00",
               "currency": "USD",
-              "amount_formatted": "$58.00"
+              "amount": 5800
             }
           ]
         },
@@ -503,9 +503,9 @@
           "purchases_count": 9,
           "earnings": [
             {
-              "amount": 2100,
+              "amount_formatted": "$21.00",
               "currency": "USD",
-              "amount_formatted": "$21.00"
+              "amount": 2100
             }
           ]
         },
@@ -549,9 +549,9 @@
           "purchases_count": 1,
           "earnings": [
             {
-              "amount": 200,
+              "amount_formatted": "$2.00",
               "currency": "USD",
-              "amount_formatted": "$2.00"
+              "amount": 200
             }
           ]
         },
@@ -575,9 +575,9 @@
           "purchases_count": 5,
           "earnings": [
             {
-              "amount": 900,
+              "amount_formatted": "$9.00",
               "currency": "USD",
-              "amount_formatted": "$9.00"
+              "amount": 900
             }
           ]
         },
@@ -601,9 +601,9 @@
           "purchases_count": 16,
           "earnings": [
             {
-              "amount": 2100,
+              "amount_formatted": "$21.00",
               "currency": "USD",
-              "amount_formatted": "$21.00"
+              "amount": 2100
             }
           ]
         },
@@ -627,9 +627,9 @@
           "purchases_count": 21,
           "earnings": [
             {
-              "amount": 4500,
+              "amount_formatted": "$45.00",
               "currency": "USD",
-              "amount_formatted": "$45.00"
+              "amount": 4500
             }
           ]
         },
@@ -653,9 +653,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 400,
+              "amount_formatted": "$4.00",
               "currency": "USD",
-              "amount_formatted": "$4.00"
+              "amount": 400
             }
           ]
         },
@@ -674,14 +674,14 @@
           "p_osx": false,
           "p_linux": false,
           "p_android": false,
-          "views_count": 13688,
+          "views_count": 13689,
           "downloads_count": 4824,
           "purchases_count": 64,
           "earnings": [
             {
-              "amount": 30950,
+              "amount_formatted": "$309.50",
               "currency": "USD",
-              "amount_formatted": "$309.50"
+              "amount": 30950
             }
           ]
         },
@@ -705,9 +705,9 @@
           "purchases_count": 5,
           "earnings": [
             {
-              "amount": 1000,
+              "amount_formatted": "$10.00",
               "currency": "USD",
-              "amount_formatted": "$10.00"
+              "amount": 1000
             }
           ]
         },
@@ -751,9 +751,9 @@
           "purchases_count": 7,
           "earnings": [
             {
-              "amount": 1400,
+              "amount_formatted": "$14.00",
               "currency": "USD",
-              "amount_formatted": "$14.00"
+              "amount": 1400
             }
           ]
         },
@@ -777,9 +777,9 @@
           "purchases_count": 4,
           "earnings": [
             {
-              "amount": 700,
+              "amount_formatted": "$7.00",
               "currency": "USD",
-              "amount_formatted": "$7.00"
+              "amount": 700
             }
           ]
         },
@@ -803,9 +803,9 @@
           "purchases_count": 5,
           "earnings": [
             {
-              "amount": 2700,
+              "amount_formatted": "$27.00",
               "currency": "USD",
-              "amount_formatted": "$27.00"
+              "amount": 2700
             }
           ]
         },
@@ -829,9 +829,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 700,
+              "amount_formatted": "$7.00",
               "currency": "USD",
-              "amount_formatted": "$7.00"
+              "amount": 700
             }
           ]
         },
@@ -855,9 +855,9 @@
           "purchases_count": 18,
           "earnings": [
             {
-              "amount": 5100,
+              "amount_formatted": "$51.00",
               "currency": "USD",
-              "amount_formatted": "$51.00"
+              "amount": 5100
             }
           ]
         },
@@ -881,9 +881,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 400,
+              "amount_formatted": "$4.00",
               "currency": "USD",
-              "amount_formatted": "$4.00"
+              "amount": 400
             }
           ]
         },
@@ -907,9 +907,9 @@
           "purchases_count": 9,
           "earnings": [
             {
-              "amount": 1800,
+              "amount_formatted": "$18.00",
               "currency": "USD",
-              "amount_formatted": "$18.00"
+              "amount": 1800
             }
           ]
         },
@@ -933,9 +933,9 @@
           "purchases_count": 3,
           "earnings": [
             {
-              "amount": 600,
+              "amount_formatted": "$6.00",
               "currency": "USD",
-              "amount_formatted": "$6.00"
+              "amount": 600
             }
           ]
         },
@@ -959,9 +959,9 @@
           "purchases_count": 1,
           "earnings": [
             {
-              "amount": 200,
+              "amount_formatted": "$2.00",
               "currency": "USD",
-              "amount_formatted": "$2.00"
+              "amount": 200
             }
           ]
         },
@@ -985,9 +985,9 @@
           "purchases_count": 1,
           "earnings": [
             {
-              "amount": 200,
+              "amount_formatted": "$2.00",
               "currency": "USD",
-              "amount_formatted": "$2.00"
+              "amount": 200
             }
           ]
         },
@@ -1011,9 +1011,9 @@
           "purchases_count": 1,
           "earnings": [
             {
-              "amount": 200,
+              "amount_formatted": "$2.00",
               "currency": "USD",
-              "amount_formatted": "$2.00"
+              "amount": 200
             }
           ]
         },
@@ -1036,9 +1036,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 400,
+              "amount_formatted": "$4.00",
               "currency": "USD",
-              "amount_formatted": "$4.00"
+              "amount": 400
             }
           ]
         },
@@ -1081,9 +1081,9 @@
           "purchases_count": 2,
           "earnings": [
             {
-              "amount": 700,
+              "amount_formatted": "$7.00",
               "currency": "USD",
-              "amount_formatted": "$7.00"
+              "amount": 700
             }
           ]
         }
