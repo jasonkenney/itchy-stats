@@ -615,5 +615,60 @@ el('metric-tabs').addEventListener('click', e => {
 
 el('export-csv-btn').addEventListener('click', exportCSV);
 
+el('select-all-btn').addEventListener('click', () => {
+  S.selectedIds = new Set();
+  renderSidebar();
+  renderAll(false);
+});
+
+el('select-none-btn').addEventListener('click', () => {
+  const games = S.current?.games || [];
+  S.selectedIds = new Set(games.map(g => g.id));
+  renderSidebar();
+  renderAll(false);
+});
+
+// ─── Auth ─────────────────────────────────────────────────────────────────────
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function checkAuth() {
+  let config = {};
+  try {
+    const res = await fetch('./data/config.json');
+    if (res.ok) config = await res.json();
+  } catch { /* no config file = no password required */ }
+
+  if (!config.passwordHash) return; // no password set
+
+  // Already authenticated this session?
+  if (sessionStorage.getItem('itchy_auth') === config.passwordHash) return;
+
+  // Show gate, wait for correct password
+  const gate = el('password-gate');
+  const input = el('pw-input');
+  const errEl = el('pw-error');
+  gate.classList.remove('hidden');
+
+  await new Promise(resolve => {
+    async function attempt() {
+      const hash = await sha256(input.value);
+      if (hash === config.passwordHash) {
+        sessionStorage.setItem('itchy_auth', config.passwordHash);
+        gate.classList.add('hidden');
+        resolve();
+      } else {
+        errEl.classList.remove('hidden');
+        input.value = '';
+        input.focus();
+      }
+    }
+    el('pw-submit').addEventListener('click', attempt);
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') attempt(); });
+  });
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
-load();
+checkAuth().then(() => load());

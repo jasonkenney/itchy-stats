@@ -9,6 +9,19 @@
 </head>
 <body>
 
+<!-- ─── Password Gate ─────────────────────────────────────────────── -->
+<div id="password-gate" class="setup-screen hidden">
+  <div class="setup-card">
+    <h1 class="setup-logo">itchy-stats</h1>
+    <p class="setup-subtitle">Enter password to continue</p>
+    <div class="form-group">
+      <input type="password" id="pw-input" placeholder="Password…" autocomplete="current-password" />
+    </div>
+    <button id="pw-submit" class="btn btn-primary btn-lg">Unlock →</button>
+    <p id="pw-error" class="setup-error hidden">Incorrect password.</p>
+  </div>
+</div>
+
 <!-- ─── Main App ──────────────────────────────────────────────────────── -->
 <div id="app">
 
@@ -40,7 +53,14 @@
       </div>
 
       <div class="sidebar-section">
-        <div class="sidebar-title">Filter by game</div>
+        <div class="sidebar-title-row">
+          <div class="sidebar-title">Filter by game</div>
+          <div class="filter-toggles">
+            <button id="select-all-btn" class="btn-link">All</button>
+            <span class="filter-sep">·</span>
+            <button id="select-none-btn" class="btn-link">None</button>
+          </div>
+        </div>
         <div id="game-filters" class="game-filters">
           <div class="sidebar-placeholder">Loading…</div>
         </div>

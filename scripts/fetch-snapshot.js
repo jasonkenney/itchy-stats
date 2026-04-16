@@ -7,6 +7,7 @@ require('dotenv').config();
 const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const ITCH_BASE = 'https://itch.io/api/1';
 const DATA_PATH = path.join(__dirname, '..', 'docs', 'data', 'snapshots.json');
@@ -75,6 +76,16 @@ async function main() {
 
   fs.mkdirSync(path.dirname(DATA_PATH), { recursive: true });
   fs.writeFileSync(DATA_PATH, JSON.stringify(stored, null, 2), 'utf8');
+
+  // Write password hash to config.json if DASHBOARD_PASSWORD is set
+  const configPath = path.join(path.dirname(DATA_PATH), 'config.json');
+  if (process.env.DASHBOARD_PASSWORD) {
+    const hash = crypto.createHash('sha256').update(process.env.DASHBOARD_PASSWORD).digest('hex');
+    fs.writeFileSync(configPath, JSON.stringify({ passwordHash: hash }, null, 2), 'utf8');
+    console.log('   Password protection: enabled');
+  } else if (!fs.existsSync(configPath)) {
+    fs.writeFileSync(configPath, JSON.stringify({}, null, 2), 'utf8');
+  }
 
   const totalRevenue = snapshot.games.reduce((sum, g) => {
     const usd = (g.earnings || []).find(e => e.currency === 'USD');
