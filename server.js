@@ -184,6 +184,19 @@ app.delete('/api/snapshot/:date', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
+  // Write config.json with password hash on startup (read by the frontend)
+  const configPath = path.join(DATA_DIR, 'config.json');
+  const crypto = require('crypto');
+  await ensureDataDir();
+  if (process.env.DASHBOARD_PASSWORD) {
+    const hash = crypto.createHash('sha256').update(process.env.DASHBOARD_PASSWORD).digest('hex');
+    await fs.writeFile(configPath, JSON.stringify({ passwordHash: hash }, null, 2));
+  } else {
+    // Ensure config.json exists but has no hash (no password required)
+    try { await fs.access(configPath); } catch {
+      await fs.writeFile(configPath, JSON.stringify({}, null, 2));
+    }
+  }
   console.log(`\nitchy-stats → http://localhost:${PORT}\n`);
 });
