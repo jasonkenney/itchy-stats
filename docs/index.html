@@ -9,36 +9,8 @@
 </head>
 <body>
 
-<!-- ─── Setup Screen ──────────────────────────────────────────────────── -->
-<div id="setup-screen" class="setup-screen">
-  <div class="setup-card">
-    <h1 class="setup-logo">itchy-stats</h1>
-    <p class="setup-subtitle">itch.io analytics dashboard</p>
-
-    <div class="form-group">
-      <label for="api-key-input">API Key</label>
-      <input
-        type="password"
-        id="api-key-input"
-        placeholder="Paste your itch.io API key…"
-        autocomplete="off"
-        spellcheck="false"
-      />
-      <small>
-        Generate one at
-        <a href="https://itch.io/user/settings/api-keys" target="_blank" rel="noopener">
-          itch.io/user/settings/api-keys
-        </a>
-      </small>
-    </div>
-
-    <button id="connect-btn" class="btn btn-primary btn-lg">Connect →</button>
-    <div id="setup-error" class="setup-error hidden"></div>
-  </div>
-</div>
-
 <!-- ─── Main App ──────────────────────────────────────────────────────── -->
-<div id="app" class="hidden">
+<div id="app">
 
   <!-- Header -->
   <header class="header">
@@ -47,7 +19,6 @@
     <div class="header-actions">
       <span class="last-updated" id="last-updated"></span>
       <button id="refresh-btn" class="btn btn-secondary btn-sm">↻ Refresh</button>
-      <button id="change-key-btn" class="btn btn-ghost btn-sm">Key</button>
     </div>
   </header>
 
