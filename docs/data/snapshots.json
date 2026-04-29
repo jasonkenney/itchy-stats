@@ -14156,6 +14156,1086 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-04-29",
+      "fetched_at": "2026-04-29T07:57:30.863Z",
+      "user": null,
+      "games": [
+        {
+          "id": 2468479,
+          "title": "1D6 Skirmish",
+          "url": "https://serialprizes.itch.io/1d6-skirmish",
+          "cover_url": "https://img.itch.zone/aW1nLzE0NjQ4OTYyLnBuZw==/315x250%23cb/nymkeq.png",
+          "created_at": "2024-01-13 15:13:20",
+          "published_at": "2024-01-13 15:16:56",
+          "published": true,
+          "type": "default",
+          "short_text": "One die. One friend. One battle. #24wordrpgjam",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 715,
+          "downloads_count": 215,
+          "purchases_count": 2,
+          "earnings": [
+            {
+              "amount": 350,
+              "amount_formatted": "$3.50",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 3144501,
+          "title": "365 Daily Hexes 2025",
+          "url": "https://serialprizes.itch.io/365-daily-hexes-2025",
+          "cover_url": "https://img.itch.zone/aW1nLzE4Nzg0ODg2LnBuZw==/315x250%23cb/xgqQTJ.png",
+          "created_at": "2024-11-29 21:52:23",
+          "published_at": "2024-11-29 21:55:26",
+          "published": true,
+          "type": "default",
+          "short_text": "A PDF with 365 pages of hexes and lines for you to fill in - and with a clickable TOC!",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 557,
+          "downloads_count": 144,
+          "purchases_count": 2,
+          "earnings": [
+            {
+              "amount": 400,
+              "amount_formatted": "$4.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1969830,
+          "title": "5HP",
+          "url": "https://serialprizes.itch.io/5hp",
+          "cover_url": "https://img.itch.zone/aW1nLzExNTgyNjMzLnBuZw==/315x250%23cb/h9Q7kR.png",
+          "created_at": "2023-03-14 16:17:07",
+          "published_at": "2023-03-14 16:24:39",
+          "published": false,
+          "type": "default",
+          "short_text": "A 12 Word RPG with a few stats and simple resolution",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 145,
+          "downloads_count": 22,
+          "purchases_count": 0,
+          "earnings": []
+        },
+        {
+          "id": 1951827,
+          "title": "8x8 Skirmish Wargame Rules",
+          "url": "https://serialprizes.itch.io/8x8-skirmish-wargame",
+          "cover_url": "https://img.itch.zone/aW1nLzExNDc3MTA1LnBuZw==/315x250%23cb/QeHPQ1.png",
+          "created_at": "2023-03-02 21:06:00",
+          "published_at": "2023-03-02 21:16:57",
+          "published": true,
+          "type": "default",
+          "short_text": "Historical wargaming for almost any era",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1480,
+          "downloads_count": 373,
+          "purchases_count": 4,
+          "earnings": [
+            {
+              "amount": 900,
+              "amount_formatted": "$9.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1989040,
+          "title": "A Novel (empty) Dungeon",
+          "url": "https://serialprizes.itch.io/a-novel-empty-dungeon",
+          "cover_url": "https://img.itch.zone/aW1nLzExNjkzOTk5LnBuZw==/315x250%23cb/FGkU1T.png",
+          "created_at": "2023-03-27 14:57:06",
+          "published_at": "2023-03-27 15:36:20",
+          "published": false,
+          "type": "default",
+          "short_text": "No delving, just doodling. Create a dungeon using only your favorite book!",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 441,
+          "downloads_count": 92,
+          "purchases_count": 0,
+          "earnings": []
+        },
+        {
+          "id": 1732901,
+          "title": "A Novel Dungeon",
+          "url": "https://serialprizes.itch.io/novel-dungeon",
+          "cover_url": "https://img.itch.zone/aW1nLzEwMzE2NjMxLnBuZw==/315x250%23cb/gLwY8V.png",
+          "created_at": "2022-10-04 14:22:57",
+          "published_at": "2022-10-04 15:19:09",
+          "published": true,
+          "type": "default",
+          "short_text": "Start making dungeons out of your favorite books!",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 16657,
+          "downloads_count": 6013,
+          "purchases_count": 56,
+          "earnings": [
+            {
+              "amount": 14523,
+              "amount_formatted": "$145.23",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1990776,
+          "title": "A Novel Station",
+          "url": "https://serialprizes.itch.io/a-novel-station",
+          "cover_url": "https://img.itch.zone/aW1nLzExNzAzODMyLnBuZw==/315x250%23cb/QSQzfr.png",
+          "created_at": "2023-03-28 16:10:02",
+          "published_at": "2023-03-28 16:13:02",
+          "published": true,
+          "type": "default",
+          "short_text": "​Start making space stations out of your favorite books!",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1001,
+          "downloads_count": 208,
+          "purchases_count": 3,
+          "earnings": [
+            {
+              "amount": 700,
+              "amount_formatted": "$7.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2011264,
+          "title": "A Wonderful, Awful Idea",
+          "url": "https://serialprizes.itch.io/a-wonderful-awful-idea",
+          "cover_url": "https://img.itch.zone/aW1nLzExODI2MzA1LnBuZw==/315x250%23cb/XhaWVf.png",
+          "created_at": "2023-04-10 16:24:26",
+          "published_at": "2023-04-10 16:24:51",
+          "published": true,
+          "type": "default",
+          "short_text": "Villainy with the Second Guess System",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 973,
+          "downloads_count": 411,
+          "purchases_count": 4,
+          "earnings": [
+            {
+              "amount": 1000,
+              "amount_formatted": "$10.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 3481306,
+          "title": "Aces Over the Odd",
+          "url": "https://serialprizes.itch.io/aces-over-the-odd",
+          "cover_url": "https://img.itch.zone/aW1nLzIwOTY5NjUzLnBuZw==/315x250%23cb/%2FRHCvF.png",
+          "created_at": "2025-04-17 15:20:17",
+          "published": false,
+          "type": "default",
+          "short_text": "Great War dogfighting using Mark of the Odd",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 0,
+          "downloads_count": 0,
+          "purchases_count": 0,
+          "earnings": []
+        },
+        {
+          "id": 1702238,
+          "title": "Alone Among The Cards (An AATS Hack)",
+          "url": "https://serialprizes.itch.io/alone-among-the-cards",
+          "cover_url": "https://img.itch.zone/aW1nLzEwMDI4NTE3LnBuZw==/315x250%23cb/e2EXqE.png",
+          "created_at": "2022-09-13 19:32:33",
+          "published_at": "2022-09-13 19:56:15",
+          "published": true,
+          "type": "default",
+          "short_text": "Custom cards to play AATS without the rules or dice.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1259,
+          "downloads_count": 208,
+          "purchases_count": 1,
+          "earnings": [
+            {
+              "amount": 200,
+              "amount_formatted": "$2.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1686173,
+          "title": "Alone Among The Stars Pocket Notebook",
+          "url": "https://serialprizes.itch.io/aats-pocket-notebook",
+          "cover_url": "https://img.itch.zone/aW1nLzk5MzE0NDEucG5n/315x250%23cb/dcdk1M.png",
+          "created_at": "2022-08-31 20:42:32",
+          "published_at": "2022-08-31 21:04:04",
+          "published": true,
+          "type": "default",
+          "short_text": "Play on the go with your very own handy dandy notebook",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1239,
+          "downloads_count": 228,
+          "purchases_count": 4,
+          "earnings": [
+            {
+              "amount": 800,
+              "amount_formatted": "$8.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 3242224,
+          "title": "Big Stompy Robots in 36 Words",
+          "url": "https://serialprizes.itch.io/big-stompy-robots-in-36-words",
+          "cover_url": "https://img.itch.zone/aW1nLzE5MzYyMTQ1LnBuZw==/315x250%23cb/4EJJEo.png",
+          "created_at": "2025-01-13 14:16:10",
+          "published_at": "2025-01-13 14:18:05",
+          "published": true,
+          "type": "default",
+          "short_text": "What it says on the tin.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 262,
+          "downloads_count": 52,
+          "purchases_count": 1,
+          "earnings": [
+            {
+              "amount": 200,
+              "amount_formatted": "$2.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1972906,
+          "title": "Conspiracy! A SCRAPaBOOK Game",
+          "url": "https://serialprizes.itch.io/conspiracy-a-scrapabook-game",
+          "cover_url": "https://img.itch.zone/aW1nLzExNjAxMDk1LnBuZw==/315x250%23cb/6lqHY%2B.png",
+          "created_at": "2023-03-16 18:32:07",
+          "published_at": "2023-03-16 18:39:08",
+          "published": true,
+          "type": "default",
+          "short_text": "It's real! You can prove it! It's all right here in this book!",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 807,
+          "downloads_count": 190,
+          "purchases_count": 4,
+          "earnings": [
+            {
+              "amount": 1200,
+              "amount_formatted": "$12.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1745744,
+          "title": "D2K MECHA PANTS assless chapbook",
+          "url": "https://serialprizes.itch.io/mecha-pants-assless-chapbook-d2k",
+          "cover_url": "https://img.itch.zone/aW1nLzEwMjcxMjIyLnBuZw==/315x250%23cb/0TjCVy.png",
+          "created_at": "2022-10-14 02:49:06",
+          "published_at": "2022-10-14 02:54:07",
+          "published": false,
+          "type": "default",
+          "short_text": "A 15 point pants book for the best selling DRESSED 2 KILL",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 62,
+          "downloads_count": 8,
+          "purchases_count": 0,
+          "earnings": []
+        },
+        {
+          "id": 2700047,
+          "title": "DARK FORT LAND",
+          "url": "https://serialprizes.itch.io/dark-fort-land",
+          "cover_url": "https://img.itch.zone/aW1nLzE2MDk1MzA3LnBuZw==/315x250%23cb/KHyB%2BL.png",
+          "created_at": "2024-05-10 19:12:24",
+          "published_at": "2024-05-10 19:21:25",
+          "published": true,
+          "type": "default",
+          "short_text": "A Grimdad Saga in a Pre-Apocalyptic Amusement Park",
+          "min_price": 200,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 855,
+          "downloads_count": 339,
+          "purchases_count": 2,
+          "earnings": [
+            {
+              "amount": 400,
+              "amount_formatted": "$4.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2442224,
+          "title": "DARK FORT LANE",
+          "url": "https://serialprizes.itch.io/dark-fort-lane",
+          "cover_url": "https://img.itch.zone/aW1nLzE0NDY2MjI0LnBuZw==/315x250%23cb/uCQZ1c.png",
+          "created_at": "2023-12-26 15:28:48",
+          "published_at": "2023-12-26 15:35:37",
+          "published": true,
+          "type": "default",
+          "short_text": "A Grimdad Saga in the Pre-Apocalyptic Suburbs",
+          "min_price": 200,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2176,
+          "downloads_count": 637,
+          "purchases_count": 19,
+          "earnings": [
+            {
+              "amount": 4300,
+              "amount_formatted": "$43.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2738657,
+          "title": "DARK PILLOW FORT",
+          "url": "https://serialprizes.itch.io/pillow-fort",
+          "cover_url": "https://img.itch.zone/aW1nLzE2MzM5MjQzLnBuZw==/315x250%23cb/BWT2%2BF.png",
+          "created_at": "2024-05-29 15:57:01",
+          "published_at": "2024-05-29 16:03:55",
+          "published": true,
+          "type": "default",
+          "short_text": "A Grimkid Saga in the  Pre-Apocalyptic Living Room",
+          "min_price": 200,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 828,
+          "downloads_count": 217,
+          "purchases_count": 1,
+          "earnings": [
+            {
+              "amount": 200,
+              "amount_formatted": "$2.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2166775,
+          "title": "Deck Runner's Guide to Norse Mythology",
+          "url": "https://serialprizes.itch.io/wreck-this-deck-norse",
+          "cover_url": "https://img.itch.zone/aW1nLzEyNzgzMTI5LnBuZw==/315x250%23cb/vZhI9U.png",
+          "created_at": "2023-07-11 18:20:01",
+          "published_at": "2023-07-11 18:23:27",
+          "published": true,
+          "type": "default",
+          "short_text": "Unauthorized supplement to Wreck This Deck RPG",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1447,
+          "downloads_count": 758,
+          "purchases_count": 18,
+          "earnings": [
+            {
+              "amount": 6400,
+              "amount_formatted": "$64.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2150758,
+          "title": "Deck Runner's Guide to Yokai",
+          "url": "https://serialprizes.itch.io/wreck-this-deck-yokai",
+          "cover_url": "https://img.itch.zone/aW1nLzEyNjg1MTMyLnBuZw==/315x250%23cb/6y4kOL.png",
+          "created_at": "2023-07-06 16:22:22",
+          "published_at": "2023-07-06 16:32:03",
+          "published": true,
+          "type": "default",
+          "short_text": "Unauthorized supplement to Wreck This Deck RPG",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2148,
+          "downloads_count": 925,
+          "purchases_count": 15,
+          "earnings": [
+            {
+              "amount": 5800,
+              "amount_formatted": "$58.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 3220952,
+          "title": "Defenders of Koganemura",
+          "url": "https://serialprizes.itch.io/iia1-defenders-of-koganemura",
+          "cover_url": "https://img.itch.zone/aW1nLzE5MjQyNzU4LnBuZw==/315x250%23cb/ITGjbe.png",
+          "created_at": "2025-01-03 21:21:23",
+          "published_at": "2025-01-03 23:05:09",
+          "published": true,
+          "type": "default",
+          "short_text": "A Seven Samurai Inspired Adventure for Ikezu-ishi",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1405,
+          "downloads_count": 423,
+          "purchases_count": 9,
+          "earnings": [
+            {
+              "amount": 2100,
+              "amount_formatted": "$21.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1746567,
+          "title": "do not scan this qr code - DJRPG",
+          "url": "https://serialprizes.itch.io/do-not-scan-this-qr-code-a-business-card-supplement-for-digital-jungle-rpg",
+          "cover_url": "https://img.itch.zone/aW1nLzEwMjc1NDkxLnBuZw==/315x250%23cb/%2FLmkv3.png",
+          "created_at": "2022-10-14 17:39:17",
+          "published_at": "2022-10-14 17:44:19",
+          "published": false,
+          "type": "default",
+          "short_text": "an officially licensed business card supplement for DIGITAL JUNGLE RPG",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 115,
+          "downloads_count": 8,
+          "purchases_count": 0,
+          "earnings": []
+        },
+        {
+          "id": 2013801,
+          "title": "Dream of a Waking Man",
+          "url": "https://serialprizes.itch.io/dream-of-a-waking-man",
+          "cover_url": "https://img.itch.zone/aW1nLzExODQyMTExLnBuZw==/315x250%23cb/LylNzP.png",
+          "created_at": "2023-04-12 13:51:11",
+          "published_at": "2023-04-12 13:52:54",
+          "published": true,
+          "type": "default",
+          "short_text": "Gladiatorial Life (and Death) with the Second Guess System",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 479,
+          "downloads_count": 234,
+          "purchases_count": 1,
+          "earnings": [
+            {
+              "amount": 200,
+              "amount_formatted": "$2.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2476389,
+          "title": "Dungeonerator",
+          "url": "https://serialprizes.itch.io/dungeonerator",
+          "cover_url": "https://img.itch.zone/aW1nLzE0NzAyMjQxLnBuZw==/315x250%23cb/JzVcUE.png",
+          "created_at": "2024-01-18 03:37:36",
+          "published_at": "2024-01-18 03:44:16",
+          "published": true,
+          "type": "default",
+          "short_text": "Generate a dungeon one word at a time.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2311,
+          "downloads_count": 553,
+          "purchases_count": 5,
+          "earnings": [
+            {
+              "amount": 900,
+              "amount_formatted": "$9.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2073056,
+          "title": "Family Tree Worksheet (an unofficial add-on for Lineage: Epoch Edition)",
+          "url": "https://serialprizes.itch.io/family-tree-worksheet",
+          "cover_url": "https://img.itch.zone/aW1nLzEyMTkyMzcyLnBuZw==/315x250%23cb/zpBOkT.png",
+          "created_at": "2023-05-16 18:51:59",
+          "published_at": "2023-05-16 19:03:02",
+          "published": true,
+          "type": "default",
+          "short_text": "A worksheet for Lineage: Epoch Edition",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2952,
+          "downloads_count": 691,
+          "purchases_count": 16,
+          "earnings": [
+            {
+              "amount": 2100,
+              "amount_formatted": "$21.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1694035,
+          "title": "For The Ages (an unofficial add-on for Lineage: Epoch Edition)",
+          "url": "https://serialprizes.itch.io/for-the-ages-lineage",
+          "cover_url": "https://img.itch.zone/aW1nLzk5Nzg4OTMucG5n/315x250%23cb/ttTcpa.png",
+          "created_at": "2022-09-06 21:04:54",
+          "published_at": "2022-09-07 20:08:49",
+          "published": true,
+          "type": "default",
+          "short_text": "Additional tables to help assign ages and length of reign.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2688,
+          "downloads_count": 776,
+          "purchases_count": 21,
+          "earnings": [
+            {
+              "amount": 4500,
+              "amount_formatted": "$45.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 3517247,
+          "title": "Gishiki - Magic in Ikezu-Ishi and any other system",
+          "url": "https://serialprizes.itch.io/gishiki",
+          "cover_url": "https://img.itch.zone/aW1nLzIwOTU3NjQyLnBuZw==/315x250%23cb/6gHYuj.png",
+          "created_at": "2025-04-29 19:56:02",
+          "published_at": "2025-04-29 20:03:05",
+          "published": true,
+          "type": "default",
+          "short_text": "Magic flavored for the Ikezu-Ishi system but useful in any",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 848,
+          "downloads_count": 325,
+          "purchases_count": 2,
+          "earnings": [
+            {
+              "amount": 400,
+              "amount_formatted": "$4.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2515837,
+          "title": "Ikezu-ishi (Malicious Rock)",
+          "url": "https://serialprizes.itch.io/ikezu-ishi",
+          "cover_url": "https://img.itch.zone/aW1nLzE3ODYxMzY3LnBuZw==/315x250%23cb/n1oyMd.png",
+          "created_at": "2024-02-06 17:50:05",
+          "published_at": "2024-02-06 18:00:49",
+          "published": true,
+          "type": "default",
+          "short_text": "Feudal Japan inspired hack of Cairn, Into the Odd, and Block, Dodge, Parry.",
+          "min_price": 500,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 13851,
+          "downloads_count": 4864,
+          "purchases_count": 66,
+          "earnings": [
+            {
+              "amount": 31950,
+              "amount_formatted": "$319.50",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2626228,
+          "title": "Ikezu-ishi One Page Adventure",
+          "url": "https://serialprizes.itch.io/ikezu-ishi-opa",
+          "cover_url": "https://img.itch.zone/aW1nLzE1NjQ3NDI5LnBuZw==/315x250%23cb/jg8cxQ.png",
+          "created_at": "2024-04-04 21:15:14",
+          "published_at": "2024-04-04 21:21:01",
+          "published": true,
+          "type": "default",
+          "short_text": "One page solo feudal Japan Cairn/Into the Odd hack",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2808,
+          "downloads_count": 650,
+          "purchases_count": 5,
+          "earnings": [
+            {
+              "amount": 1000,
+              "amount_formatted": "$10.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2637290,
+          "title": "Kellogg's Borg",
+          "url": "https://serialprizes.itch.io/kelloggs-borg",
+          "cover_url": "https://img.itch.zone/aW1nLzE1NzE1OTgwLnBuZw==/315x250%23cb/JVwznE.png",
+          "created_at": "2024-04-10 18:10:23",
+          "published_at": "2024-04-10 18:16:15",
+          "published": true,
+          "type": "default",
+          "short_text": "You've eaten their cereal. Now defeat them in battle.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 591,
+          "downloads_count": 442,
+          "purchases_count": 0,
+          "earnings": []
+        },
+        {
+          "id": 3394125,
+          "title": "Kuroru",
+          "url": "https://serialprizes.itch.io/kuroru",
+          "cover_url": "https://img.itch.zone/aW1nLzIwMjYwODg4LnBuZw==/315x250%23cb/DgqbQr.png",
+          "created_at": "2025-03-13 18:51:09",
+          "published_at": "2025-03-13 19:01:12",
+          "published": true,
+          "type": "default",
+          "short_text": "A Feudal Japan Inspired Hexcrawl Generator for Ikezu-ishi or other systems",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2034,
+          "downloads_count": 712,
+          "purchases_count": 7,
+          "earnings": [
+            {
+              "amount": 1400,
+              "amount_formatted": "$14.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 3227551,
+          "title": "Locations of Adventure",
+          "url": "https://serialprizes.itch.io/locations-of-adventure",
+          "cover_url": "https://img.itch.zone/aW1nLzE5MjgwOTQyLnBuZw==/315x250%23cb/4Fcpb%2B.png",
+          "created_at": "2025-01-06 22:26:43",
+          "published_at": "2025-01-06 22:41:19",
+          "published": true,
+          "type": "default",
+          "short_text": "20 locations and settings for Ikezu-Ishi and any other system",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1068,
+          "downloads_count": 419,
+          "purchases_count": 4,
+          "earnings": [
+            {
+              "amount": 700,
+              "amount_formatted": "$7.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2485845,
+          "title": "MECHSCRAWLER",
+          "url": "https://serialprizes.itch.io/mechscrawler",
+          "cover_url": "https://img.itch.zone/aW1nLzE0NzY0OTYzLnBuZw==/315x250%23cb/9FzQEz.png",
+          "created_at": "2024-01-23 16:35:27",
+          "published_at": "2024-01-23 16:40:03",
+          "published": true,
+          "type": "default",
+          "short_text": "A solo AI and Hex Crawling supplement for The Mecha Hack",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1443,
+          "downloads_count": 312,
+          "purchases_count": 5,
+          "earnings": [
+            {
+              "amount": 2700,
+              "amount_formatted": "$27.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2306211,
+          "title": "MecKORG",
+          "url": "https://serialprizes.itch.io/meckorg",
+          "cover_url": "https://img.itch.zone/aW1nLzEzNjY2NDI5LnBuZw==/315x250%23cb/uhJ9Ca.png",
+          "created_at": "2023-10-09 20:28:05",
+          "published_at": "2023-10-09 20:37:09",
+          "published": true,
+          "type": "default",
+          "short_text": "War is all you have known. And you have a mech.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 2898,
+          "downloads_count": 1202,
+          "purchases_count": 3,
+          "earnings": [
+            {
+              "amount": 1000,
+              "amount_formatted": "$10.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2119760,
+          "title": "MS Word Cut-and-Paste Foldable Zine Template",
+          "url": "https://serialprizes.itch.io/word-cut-and-paste-foldable-zine-template",
+          "cover_url": "https://img.itch.zone/aW1nLzEyNDgyNjM4LnBuZw==/315x250%23c/H5q%2Bus.png",
+          "created_at": "2023-06-15 18:30:15",
+          "published_at": "2023-06-15 18:45:40",
+          "published": true,
+          "type": "default",
+          "short_text": "Just paste in your text and you've got a zine!",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1896,
+          "downloads_count": 1033,
+          "purchases_count": 19,
+          "earnings": [
+            {
+              "amount": 5300,
+              "amount_formatted": "$53.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1750680,
+          "title": "No Cards No Problem (0C0P)",
+          "url": "https://serialprizes.itch.io/no-cards-no-problem-0c0p",
+          "cover_url": "https://img.itch.zone/aW1nLzEwMjk5NzE1LnBuZw==/315x250%23cb/RvEPVP.png",
+          "created_at": "2022-10-17 15:19:19",
+          "published_at": "2022-10-17 15:30:50",
+          "published": true,
+          "type": "default",
+          "short_text": "Business card sized substitute for a deck of cards.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 704,
+          "downloads_count": 117,
+          "purchases_count": 2,
+          "earnings": [
+            {
+              "amount": 400,
+              "amount_formatted": "$4.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1752092,
+          "title": "No Dice No Problem (0D0P)",
+          "url": "https://serialprizes.itch.io/0d0p",
+          "cover_url": "https://img.itch.zone/aW1nLzEwMzA3MDk4LnBuZw==/315x250%23cb/32dg0y.png",
+          "created_at": "2022-10-18 14:43:31",
+          "published_at": "2022-10-18 15:13:00",
+          "published": true,
+          "type": "default",
+          "short_text": "The 0D0P tables let you use any writing to roll a D2-D20.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 3761,
+          "downloads_count": 1328,
+          "purchases_count": 9,
+          "earnings": [
+            {
+              "amount": 1800,
+              "amount_formatted": "$18.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2201157,
+          "title": "So You Made A Clone Of Yourself",
+          "url": "https://serialprizes.itch.io/so-you-made-a-clone-of-yourself",
+          "cover_url": "https://img.itch.zone/aW1nLzEzMDEyMjUwLnBuZw==/315x250%23cb/Uqmu8x.png",
+          "created_at": "2023-08-02 17:09:41",
+          "published_at": "2023-08-02 17:16:54",
+          "published": true,
+          "type": "default",
+          "short_text": "A Second Guess Game of moral quandary.",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 805,
+          "downloads_count": 294,
+          "purchases_count": 3,
+          "earnings": [
+            {
+              "amount": 600,
+              "amount_formatted": "$6.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2462490,
+          "title": "The Goal Is 50 Gold",
+          "url": "https://serialprizes.itch.io/the-goal-is-50-gold",
+          "cover_url": "https://img.itch.zone/aW1nLzE0NjA2NTEwLnBuZw==/315x250%23cb/oNFs6P.png",
+          "created_at": "2024-01-09 15:39:54",
+          "published_at": "2024-01-09 15:47:35",
+          "published": true,
+          "type": "default",
+          "short_text": "A plain text dungeon adventure for the #24WordRPGJam",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 447,
+          "downloads_count": 187,
+          "purchases_count": 1,
+          "earnings": [
+            {
+              "amount": 200,
+              "amount_formatted": "$2.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 1959632,
+          "title": "THE SERIAL PRIZES BOOK OF GAMES FOR KIDS WHO CAN'T GAME GOOD",
+          "url": "https://serialprizes.itch.io/the-serial-prizes-book-of-games-for-kids-who-cant-game-good",
+          "cover_url": "https://img.itch.zone/aW1nLzExNTM0NjAzLnBuZw==/315x250%23cb/%2Bt%2BvqR.png",
+          "created_at": "2023-03-08 04:51:25",
+          "published_at": "2023-03-08 05:06:36",
+          "published": true,
+          "type": "default",
+          "short_text": "12-word games for kids who wanna learn to do other stuff good too",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 236,
+          "downloads_count": 146,
+          "purchases_count": 1,
+          "earnings": [
+            {
+              "amount": 200,
+              "amount_formatted": "$2.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2025439,
+          "title": "The Way Found In Dying",
+          "url": "https://serialprizes.itch.io/the-way-found-in-dying",
+          "cover_url": "https://img.itch.zone/aW1nLzExOTExNTc3LnBuZw==/315x250%23cb/9cThVg.png",
+          "created_at": "2023-04-19 14:41:43",
+          "published_at": "2023-04-19 14:43:34",
+          "published": true,
+          "type": "default",
+          "short_text": "Samurai Dueling with the Second Guess System",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 1098,
+          "downloads_count": 369,
+          "purchases_count": 1,
+          "earnings": [
+            {
+              "amount": 200,
+              "amount_formatted": "$2.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2002356,
+          "title": "Time to Dice (Pocket D6)",
+          "url": "https://serialprizes.itch.io/time-to-dice",
+          "cover_url": "https://img.itch.zone/aW1nLzExNzcxNTY1LnBuZw==/315x250%23cb/QfXVOj.png",
+          "created_at": "2023-04-04 13:59:20",
+          "published_at": "2023-04-04 13:59:30",
+          "published": true,
+          "type": "default",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 803,
+          "downloads_count": 153,
+          "purchases_count": 2,
+          "earnings": [
+            {
+              "amount": 400,
+              "amount_formatted": "$4.00",
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": 2797602,
+          "title": "UNKNOWN ENTITY",
+          "url": "https://serialprizes.itch.io/unknown-entity",
+          "cover_url": "https://img.itch.zone/aW1nLzE2NzAxNjk3LnBuZw==/315x250%23cb/6r3THn.png",
+          "created_at": "2024-06-26 19:26:59",
+          "published_at": "2024-06-26 19:31:16",
+          "published": true,
+          "type": "default",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 283,
+          "downloads_count": 80,
+          "purchases_count": 0,
+          "earnings": []
+        },
+        {
+          "id": 2054963,
+          "title": "Yes, we’re Pinkertons. Yes, we still exist. Yes, we’re here for your children’s card game collection.",
+          "url": "https://serialprizes.itch.io/yes-were-pinkertons",
+          "cover_url": "https://img.itch.zone/aW1nLzEyMDg0NDg2LnBuZw==/315x250%23cb/dbWcEY.png",
+          "created_at": "2023-05-05 17:37:01",
+          "published_at": "2023-05-05 17:55:57",
+          "published": true,
+          "type": "default",
+          "short_text": "Solo 2nd Chance game based on true events",
+          "min_price": 0,
+          "p_windows": false,
+          "p_osx": false,
+          "p_linux": false,
+          "p_android": false,
+          "views_count": 758,
+          "downloads_count": 133,
+          "purchases_count": 2,
+          "earnings": [
+            {
+              "amount": 700,
+              "amount_formatted": "$7.00",
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
